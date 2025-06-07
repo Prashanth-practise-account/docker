@@ -22,7 +22,8 @@ jobs:
           password: Prashanth@123
 
       - name: Build Docker image
-        run: docker build -t yourdockerhubusername/myapp:latest .
+        run: docker build -t 9880135088/myapp:latest .
 
       - name: Push Docker image
-        run: docker push yourdockerhubusername/myapp:latest
+        run: docker push 9880135088/myapp:latest
+
